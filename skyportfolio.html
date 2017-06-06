@@ -16,10 +16,21 @@
             <div class="col-sm-12 title">
                 <h1>Sky's Travels</h1>
                 <ul class="navlist">
+                    <a href="about.html" class="button">About Me</a>
+                    <a href="portfolio.html" class="button">Portfolio</a>
+                    <a href="skyportfolio.html" class="button">Travels</a>
+                </ul>
+            </div>
+            <div class="hidden">
+                <div id="mySidenav" class="sidenav">
+                    <a href="javascript:void(0)" class="closebtn" onclick="closeNav()">&times;</a>
                     <a href="about.html">About Me</a>
                     <a href="portfolio.html">Portfolio</a>
                     <a href="skyportfolio.html">Travels</a>
-                </ul>
+                </div>
+                <div id="main">
+                    <span style="font-size:30px;cursor:pointer" onclick="openNav()">&#9776;</span>
+                </div>
             </div>
         </div>
     </nav>
@@ -41,7 +52,6 @@
             <h2>Vegas Info Here</h2>
         </div>
     </div>
-
     <div class="footer">
         @Copyright2017 Skylar Siagel
     </div>
