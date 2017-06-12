@@ -1,0 +1,99 @@
+body {
+    background-color: hsla(0, 100%, 90%, 0.3);
+}
+
+.navbar {
+    width: 100%;
+    position: absolute;
+}
+
+.title {
+    margin-top: -10px;
+}
+
+.navlist {
+    margin-top: -60px;
+    margin-right: 20px;
+}
+
+a:link,
+a:visited {
+    background-color: black;
+    color: white;
+    padding: 14px 25px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    width: 120px;
+}
+
+a:hover,
+a:active {
+    background-color: pink;
+    color: black;
+}
+
+h1 {
+    color: white;
+    text-decoration: underline;
+    text-align: center;
+    padding: 10px;
+    font-family: 'Shadows Into Light Two', cursive;
+}
+
+.thumbnail {
+    margin-top: 140px;
+    height: 450px;
+    width: 350px;
+    margin-bottom: 140px;
+    margin-left: 25px;
+    background-color: hsla(0, 100%, 30%, 0);
+    border: none;
+}
+
+h3,
+p {
+    color: #282828;
+}
+
+.button1:link,
+.button1:visited {
+    background-color: #282828;
+}
+
+.button1:hover,
+.button1:active {
+    background-color: pink;
+}
+
+.caption {
+    font-family: 'Shadows Into Light Two', cursive;
+    color: black;
+    font-size: 15px;
+    text-align: justify;
+}
+
+#mongo {
+    margin-left: 30px;
+}
+
+#node {
+    margin-top: -70px;
+    margin-left: 30px;
+}
+
+#thumb2 {
+    margin-top: -70px;
+}
+
+.footer {
+    background-color: #282828;
+    color: white;
+    padding: 15px;
+    text-align: center;
+    font-size: 13px;
+    width: 100%;
+    height: 10%;
+    line-height: 2.5em;
+    bottom: 0;
+}
