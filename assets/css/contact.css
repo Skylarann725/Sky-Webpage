@@ -17,6 +17,7 @@ body {
 
 .hidden {
     display: none !important;
+    margin-top: -70px;
 }
 
 .button:link,
@@ -156,39 +157,7 @@ h2 {
     }
 }
 
-
-/*@media screen and (max-width: 575px) {
-    .aboutMe {
-        height: auto;
-    }
-    .information {
-        padding-right: 50px;
-        margin-left: 70px;
-    }
-    .profile {
-        width: 110%;
-        margin-left: -20px !important;
-    }
-    .paragraph {
-        margin-bottom: 0px;
-        padding-bottom: 30px;
-    }
-}*/
-
-
-/*@media screen and (max-width: 840px) {
-    .information {
-        width: 80%;
-    }
-}*/
-
 @media screen and (max-width: 860px) {
-    /*    .profile {
-        margin-left: -50px;
-    }
-    .information {
-        margin-right: 10px;
-    }*/
     #main {
         height: 60px;
         margin-top: -80px;
