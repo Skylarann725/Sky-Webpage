@@ -180,13 +180,6 @@ p {
         margin-bottom: 0px;
         padding-bottom: 30px;
     }
-    .fixed-bg {
-        min-height: 500px;
-        background-attachment: fixed;
-        background-position: center;
-        background-repeat: no-repeat;
-        background-size: cover;
-    }
     .fixed-bg2 {
         display: none !important;
     }
