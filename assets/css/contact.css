@@ -52,13 +52,20 @@ h2 {
     font-family: 'Shadows Into Light Two', cursive;
 }
 
+h3 {
+    text-decoration: underline;
+}
+
+p {
+    font-size: 20px;
+}
+
 .contact {
     /*background-color: white;*/
     width: 35%;
     margin-top: 155px;
-    /*border: solid 1px black;*/
     color: black;
-    font-family: 'Handlee', cursive;
+    font-family: 'Shadows Into Light Two', cursive;
     float: right;
     margin-right: 50px;
     padding: 20px;
